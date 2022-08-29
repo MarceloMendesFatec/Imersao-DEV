@@ -65,4 +65,4 @@ function server(request, response){
 
 // vou criar um servidor, passando como parametro a funcao q criei acima
 // servidor precisa escutar (listen) uma porta tcp ip
-http.createServer(server).listen(9000)
+http.createServer(server).listen(7890)
